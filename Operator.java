@@ -33,6 +33,12 @@ public class Operator {
         sc.close();
 
 
+        //this is one way to output the result
+int a=55;
+int b=25;
+System.out.println("The sum is "+ (a+b));
+System.out.println("The difference is "+ (a-b));
+
 
     }
 }

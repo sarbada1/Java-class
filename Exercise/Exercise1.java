@@ -22,7 +22,7 @@ public class Exercise1 {
         System.err.println("Is first number a positive value? " + (x>=0));
         System.err.println("Is second number an even integer? " + (y%2==0));
         System.err.println("Is second number multiple of 5? " + (y%5==0));
-sc.close();
+        sc.close();
         
 
     }

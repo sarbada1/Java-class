@@ -1,4 +1,4 @@
-
+//Bmi calculator
 
 import java.util.Scanner;
 

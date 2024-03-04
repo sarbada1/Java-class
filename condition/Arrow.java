@@ -9,8 +9,7 @@ public class Arrow {
                 System.out.print("Two\n");
                 System.out.print("Second");
                 
-            }
-                
+            }               
               
         }
     }

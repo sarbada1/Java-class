@@ -8,20 +8,16 @@ public class Studentdetail {
         int roll;
         String name;
         float grade;
-
+        String repeat;
         do {
-            System.out.println("Enter your name (type 'quit' to exit): ");
+            System.out.println("Enter your name : ");
             name = sc.nextLine();
-
-            if (name.equalsIgnoreCase("quit")) {
-                break; // Exit the loop if the user enters "quit"
-            }
 
             System.out.println("Enter your Roll number: ");
             roll = sc.nextInt();
             System.out.println("Enter your grade: ");
             grade = sc.nextFloat();
-            sc.nextLine(); // Consume the newline character left by nextFloat()
+            sc.nextLine(); 
 
             // Displaying the student details
             System.out.println("Student Details:");
@@ -29,7 +25,11 @@ public class Studentdetail {
             System.out.println("Roll number: " + roll);
             System.out.println("Grade: " + grade);
 
-        } while (true); // Infinite loop, exit using break statement
+            System.out.println(("DO you want to repeat? Press quit to exit and continue to repeat"));
+            repeat=sc.nextLine();
+
+        } while ( ! repeat.equals("quit"));
+        // System.out.println("Godbye");
 
         sc.close();
     }

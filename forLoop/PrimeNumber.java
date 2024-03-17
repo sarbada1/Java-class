@@ -30,6 +30,7 @@ public class PrimeNumber {
     // }
     public static void main(String[] args) {
         int num;
+        String[] name=new String[10];
         boolean isPrime = true;
         Scanner sc = new Scanner(System.in);
 

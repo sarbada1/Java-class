@@ -9,11 +9,12 @@ public class Box {
     }
 
     public static void main(String[] args) {
-        Box b1 = new Box();
+        Box b1 = new Box();  //Box->class name, user defined datatype ||  b1->reference variable || new -> keyword   ||   Box()-> constructor of box class
         b1.l = 3;
         b1.b = 4;
         b1.h = 5;
         b1.showVolume();
+        b1=null;
 
         Box b2 = new Box();
         b2.l = 10;

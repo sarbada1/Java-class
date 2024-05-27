@@ -1,0 +1,18 @@
+String : 
+It is a sequence of characters
+String is a final class
+tring object is an immutable
+
+String S1="Divya Gyan";
+String S2= "Dibya Gyan"
+bytes[] bytes = {65,66,67};
+String S3=new String(bytes)
+
+To combine two string : if returns new string
+String s4= s1.concat(s3)
+system.out.println(s4);
+s4.charAt(0)
+
+
+Mutable string
+StringBuffer sb1=new STringBuffer

@@ -1,0 +1,27 @@
+
+process: program in execution laoded in memory, either running or ready to running
+thread : lightweight process, independently runnable part of process
+thread lifecycle
+
+start -----------> ready/ reusable ------------> running --------------------> terminated
+               |                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    v
+                                                sleep/ blocked
+
+
+thread creation
+   runnable interface
+   thread class
+
+thread methods
+thread properties
+    name
+    priority(1-10)
+    group
+    status
+
+
+inter thread communication
